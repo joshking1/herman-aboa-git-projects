@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Loop through the servers
+for server in "prod" "QA" "Dev"; do
+    echo "Checking $server server:"
+    
+    # Get OS version
+    os_version=$(sudo uname -a)
+
+    # Get Apache version
+    apache_version=$(sudo httpd -v | grep version | awk '{print $3}')
+
+    # Print the results
+    echo "The OS version is $os_version and the Apache version is $apache_version"
+    echo "-------------------------"
+done
+
+
+
