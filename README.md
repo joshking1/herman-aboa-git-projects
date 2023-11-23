@@ -1,4 +1,4 @@
-# OS-HTTPD-Versions
+# Notes
 
 In this case, the script assumes that you have the necessary privileges to run sudo without entering a password. 
 
