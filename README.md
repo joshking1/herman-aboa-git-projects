@@ -28,13 +28,13 @@ It's essentially the reverse of if and is required to close the conditional bloc
 
 In this example:
 
-if [ $number -gt 10 ]; checks if the variable number is greater than 10.
+# if [ $number -gt 10 ]; checks if the variable number is greater than 10.
 
-then indicates the start of the code block to be executed if the condition is true.
+# then indicates the start of the code block to be executed if the condition is true.
 
-echo "The number is greater than 10." is the code that gets executed if the condition is true.
+# echo "The number is greater than 10." is the code that gets executed if the condition is true.
 
-else signifies the start of the code block to be executed if the condition is false.
+# else signifies the start of the code block to be executed if the condition is false.
 
 echo "The number is not greater than 10." is the code that gets executed if the condition is false.
 
