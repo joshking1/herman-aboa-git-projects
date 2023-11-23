@@ -8,5 +8,7 @@ Save the script to a file (e.g., check_versions.sh), make it executable (chmod +
 
 Result you should get after running this Script 
 
+Pay attention to these results
+
 ![image](https://github.com/joshking1/OS-HTTPD-Versions/assets/88409463/b6f15eeb-ec5c-4db2-89d8-7e769e9fca1f)
 
