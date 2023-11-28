@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#we are helping george
 # Loop through the servers
 for server in "prod" "QA" "Dev"; do
     echo "Checking $server server:"
